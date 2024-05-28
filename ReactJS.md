@@ -60,6 +60,11 @@ After componentWillUnmount() is called, the component is removed from the DOM an
 
 <hr/>
 
+<h1>Virtual DOM</h1>
+<p>The virtual DOM (VDOM) is a programming concept where an ideal, or “virtual”, representation of a UI is kept in memory and synced with the “real” DOM by a library such as ReactDOM. This process is called reconciliation.Virtual DOM makes the performance faster, not because the processing itself is done in less time. The reason is the amount of changed information – rather than wasting time on updating the entire page, you can dissect it into small elements and interactions</p>
+
+<hr/>
+
 
 
 
